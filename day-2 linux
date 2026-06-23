@@ -1,0 +1,59 @@
+/tmp/arun# history
+    1  ssh-keygen
+    2  cd /root/.ssh/id_ed25519
+    3  cd /root/.ssh/
+    4  ls
+    5  cat id_ed25519.pub
+    6  ls
+    7  cat id_ed25519
+    8  hostname
+    9  hostname -i
+   10  uname
+   11  uname -a
+   12  ls
+   13  pwd
+   14  cd ..
+   15  cd .ssh/
+   16  cd /tmp/
+   17  ls
+   18  mkdir arun
+   19  cd arun/
+   20  ls
+   21  touch 123
+   22  ls
+   23  mv 123 abc
+   24  ls
+   25  cp abc ajay
+   26  ls
+   27  rm ajay
+   28  ls
+   29  mkdir folder
+   30  rm folder
+   31  echo "welcome to day-1"
+   32  whoami
+   33  w
+   34  whoami
+   35  w
+   36  who
+   37  history
+   38  ps
+   39  ps -ef
+   40  top
+   41  ps -ef
+   42  ps -ef | grep jbd2 
+   43  apt-get upadte && apt install nginx -y
+   44  apt-get update && apt install nginx -y
+   45  ps -ef | grep nginx
+   46  cat /etc/os-release 
+   47  uname -a
+   48  top
+   49  htop
+   50  uptime
+   51  ps
+   52  top
+   53  free
+   54  free =h
+   55  free -h
+   56  df -h
+   57  du
+   58  history
