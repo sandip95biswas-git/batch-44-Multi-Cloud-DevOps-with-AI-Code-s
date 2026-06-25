@@ -1,0 +1,50 @@
+history
+    1  ifconfig
+    2  apt install net-tools
+    3  ifconfig
+    4  netstat
+    5  ss
+    6  dig google.com
+    7  nslookup 
+    8  nslookup google.com
+    9  nslookup www.google.com
+   10  route google.com
+   11  route www.google.com
+   12  route 74.125.132.100
+   13  route
+   14  route apt-get update
+   15  apt-get update
+   16  traceroute google.com
+   17  apt install traceroute
+   18  traceroute google.com
+   19  hostname
+   20  whois flipkart.com
+   21  apt install whois
+   22  whois flipkart.com
+   23  history
+   24  ifplugstatus 
+   25  sudo apt install ifplugd
+   26  ifplugstatus
+   27  sudo apt install ifplugd
+   28  ls
+   29  vi mohit
+   30  cat mohit 
+   31  vi mohit
+   32  cat mohit 
+   33  vi mohit
+   34  touch 123
+   35  ls
+   36  vi shalini.sh
+   37  ls
+   38  cat shalini.sh 
+   39  ./shalini.sh
+   40  ls -l
+   41  chmod +x shalini.sh
+   42  ls -l
+   43  ./shalini.sh
+   44  ls
+   45  ls -l
+   46  mkdir chandra
+   47  ls
+   48  ls -l
+   49  history
