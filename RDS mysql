@@ -1,0 +1,41 @@
+
+
+sudo apt update
+sudo apt upgrade
+sudo apt install mysql-client
+mysql --version
+
+
+
+mysql -h database-2.cjkz84i4bp0t.ap-south-1.rds.amazonaws.com -u admin -pOmyGvVil6iuc6vn9JxxE 
+
+mysql -h <endpoint> -u admin -p
+
+
+-------------
+
+
+CREATE DATABASE IF NOT EXISTS dineshDB;
+
+USE dineshDB;
+
+CREATE TABLE CUSTOMERS (
+   ID INT AUTO_INCREMENT,
+   NAME VARCHAR(20) NOT NULL,
+   AGE INT NOT NULL,
+   ADDRESS CHAR (25),
+   SALARY DECIMAL (18, 2),
+   PRIMARY KEY (ID)
+);
+
+
+INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY) VALUES 
+(1, 'Ramesh', 32, 'Ahmedabad', 2000.00 ),
+(2, 'Khilan', 25, 'Delhi', 1500.00 ),
+(3, 'Kaushik', 23, 'Kota', 2000.00 ),
+(4, 'Chaitali', 25, 'Mumbai', 6500.00 ),
+(5, 'Hardik', 27, 'Bhopal', 8500.00 ),
+(6, 'Komal', 22, 'Hyderabad', 4500.00 ),
+(7, 'Muffy', 24, 'Indore', 10000.00 );
+
+Select * from CUSTOMERS;
