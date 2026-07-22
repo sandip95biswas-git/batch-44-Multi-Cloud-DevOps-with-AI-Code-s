@@ -16,3 +16,9 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
 sudo apt update
 
 sudo apt install jenkins -y
+
+jenkins --version
+
+systemctl status jenkins
+systemctl stop jenkins
+systemctl start jenkins
